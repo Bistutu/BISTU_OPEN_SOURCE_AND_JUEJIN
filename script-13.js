@@ -1,10 +1,16 @@
 var prizes = [
-    {id: 1, img: 'images/1.png', text: '"好好生活"贴纸', count: 90},
-    {id: 2, img: 'images/2.png', text: '"好好学习"贴纸', count: 90},
-    {id: 3, img: 'images/3.png', text: '掘金码赛克编织包', count: 5},
-    {id: 4, img: 'images/4.png', text: '乐高积木', count: 20},
-    {id: 5, img: 'images/5.png', text: 'YOYO草坪绿植', count: 25},
-    {id: 6, img: 'images/6.png', text: '掘金IP棒球帽', count: 10},
+    // {id: 1, img: 'images/1.png', text: '"好好生活"贴纸', count: 90},
+    // {id: 2, img: 'images/2.png', text: '"好好学习"贴纸', count: 90},
+    // {id: 3, img: 'images/3.png', text: '掘金码赛克编织包', count: 5},
+    // {id: 4, img: 'images/4.png', text: '乐高积木', count: 20},
+    // {id: 5, img: 'images/5.png', text: 'YOYO草坪绿植', count: 25},
+    // {id: 6, img: 'images/6.png', text: '掘金IP棒球帽', count: 10},
+    {id: 1, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/1.png', text: '"好好生活"贴纸', count: 0},    // +20
+    {id: 2, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/2.png', text: '"好好学习"贴纸', count: 40},    // +20
+    {id: 3, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/3.png', text: '掘金码赛克编织包', count: 2},   // +2
+    {id: 4, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/4.png', text: '乐高积木', count: 0},      // +10
+    {id: 5, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/5.png', text: 'YOYO草坪绿植', count: 4},  // +10
+    {id: 6, img: 'https://bistutu-apk.oss-cn-beijing.aliyuncs.com/images/6.png', text: '掘金IP棒球帽', count: 0},   // +2
 ];
 
 var currentIndex = 0;
